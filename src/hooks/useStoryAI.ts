@@ -28,29 +28,34 @@ export interface StoryGenre {
 }
 
 // ── CHARACTER PHOTO POOLS ─────────────────────────────────────────────────────
-// crop=top → shows head + upper body for a natural visual-novel sprite look.
+// High-contrast, dramatic editorial portraits — look great with CSS illustration
+// treatment (saturate 2.0 + contrast 1.25). Full portrait crop for sprite look.
 const PHOTOS = {
+  // Romantic male — charming, well-lit, expressive
   male_romantic: [
-    'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=600&h=900&fit=crop&crop=top&q=85',
-    'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=600&h=900&fit=crop&crop=top&q=85',
-    'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=600&h=900&fit=crop&crop=top&q=85',
-    'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=600&h=900&fit=crop&crop=top&q=85',
-    'https://images.unsplash.com/photo-1488161628813-04466f872be2?w=600&h=900&fit=crop&crop=top&q=85',
+    'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&h=900&fit=crop&crop=faces&q=90',
+    'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=500&h=900&fit=crop&crop=faces&q=90',
+    'https://images.unsplash.com/photo-1534030347209-467a5b0ad3e6?w=500&h=900&fit=crop&crop=faces&q=90',
+    'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=500&h=900&fit=crop&crop=faces&q=90',
+    'https://images.unsplash.com/photo-1488161628813-04466f872be2?w=500&h=900&fit=crop&crop=faces&q=90',
   ],
+  // Dark male — mysterious, intense, strong lighting
   male_dark: [
-    'https://images.unsplash.com/photo-1463453091185-61582044d556?w=600&h=900&fit=crop&crop=top&q=85',
-    'https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?w=600&h=900&fit=crop&crop=top&q=85',
-    'https://images.unsplash.com/photo-1566753323558-f4e0952af115?w=600&h=900&fit=crop&crop=top&q=85',
+    'https://images.unsplash.com/photo-1463453091185-61582044d556?w=500&h=900&fit=crop&crop=faces&q=90',
+    'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=900&fit=crop&crop=faces&q=90',
+    'https://images.unsplash.com/photo-1566753323558-f4e0952af115?w=500&h=900&fit=crop&crop=faces&q=90',
   ],
+  // Sporty male — confident, athletic look
   male_sporty: [
-    'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=900&fit=crop&crop=top&q=85',
-    'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600&h=900&fit=crop&crop=top&q=85',
+    'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500&h=900&fit=crop&crop=faces&q=90',
+    'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=500&h=900&fit=crop&crop=faces&q=90',
   ],
+  // Female — vibrant, editorial, expressive
   female: [
-    'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=600&h=900&fit=crop&crop=top&q=85',
-    'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=600&h=900&fit=crop&crop=top&q=85',
-    'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600&h=900&fit=crop&crop=top&q=85',
-    'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=600&h=900&fit=crop&crop=top&q=85',
+    'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&h=900&fit=crop&crop=faces&q=90',
+    'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=500&h=900&fit=crop&crop=faces&q=90',
+    'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=500&h=900&fit=crop&crop=faces&q=90',
+    'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=500&h=900&fit=crop&crop=faces&q=90',
   ],
 };
 

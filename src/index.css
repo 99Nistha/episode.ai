@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800;900&display=swap');
 
 :root {
-  --accent: #ff6b9d;
-  --accent2: #c44dff;
-  --glass: rgba(8, 8, 18, 0.88);
-  --glass-border: rgba(255, 255, 255, 0.1);
+  --accent:  #FF3D7F;
+  --accent2: #B83DFF;
+  --glass:   rgba(5, 3, 16, 0.94);
+  --glass-border: rgba(255, 255, 255, 0.07);
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
