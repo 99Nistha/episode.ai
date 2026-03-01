@@ -1,0 +1,13 @@
+/* Custom App Styles (Most layout handled in index.css) */
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+
